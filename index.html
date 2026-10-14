@@ -86,7 +86,8 @@ tailwind.config = {
   .nav-link:after{content:'';position:absolute;left:0;bottom:-6px;height:2px;width:0;background:#E30613;transition:.25s}
   .nav-link:hover:after,.nav-link.active:after{width:100%}
   .nav-link.active{color:#E30613}
-  .hero-grid{background-image:linear-gradient(to right, #f0f0f1 1px, transparent 1px),linear-gradient(to bottom, #f0f0f1 1px, transparent 1px);background-size:44px 44px;mask-image:radial-gradient(ellipse 90% 80% at 50% 20%, black 60%, transparent 100%)}
+  .hero-grid{background-image:none;mask-image:none}
+  /*.hero-grid{background-image:linear-gradient(to right, #f0f0f1 1px, transparent 1px),linear-gradient(to bottom, #f0f0f1 1px, transparent 1px);background-size:44px 44px;mask-image:radial-gradient(ellipse 90% 80% at 50% 20%, black 60%, transparent 100%)}*/
   .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease, transform .7s cubic-bezier(.16,1,.3,1)}
   .reveal.visible{opacity:1;transform:none}
   .marquee{display:flex;gap:0;overflow:hidden;white-space:nowrap}
@@ -697,20 +698,20 @@ tailwind.config = {
     <div class="grid md:grid-cols-3 gap-6 mt-10">
       <div class="reveal border-2 border-dashed border-gray-200 rounded-2xl p-8 text-center bg-gray-50/50">
         <div class="flex justify-center gap-1 text-gray-300 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-        <p class="text-gray-400 italic text-[15px]">“Customer testimonial goes here.”</p>
-        <div class="mt-5 text-[13px] font-bold text-gray-400">— Customer / Company Name</div>
+        <p class="text-gray-400 italic text-[15px]">“Managing electricity consumption across our rental units has become much easier. Individual metering helps us monitor usage and manage tenant billing more efficiently.”</p>
+        <div class="mt-5 text-[13px] font-bold text-gray-400">— Apartment Manager / Nairobi</div>
         <div class="mt-2 text-[11.5px] tracking-widest font-bold text-gray-300">ELECTRICITY METERS</div>
       </div>
       <div class="reveal border-2 border-dashed border-gray-200 rounded-2xl p-8 text-center bg-gray-50/50">
         <div class="flex justify-center gap-1 text-gray-300 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-        <p class="text-gray-400 italic text-[15px]">“Customer testimonial goes here.”</p>
-        <div class="mt-5 text-[13px] font-bold text-gray-400">— Customer / Company Name</div>
+        <p class="text-gray-400 italic text-[15px]">“Tracking water consumption in our properties is now more straightforward. Individual water metering gives us better visibility into usage and helps us manage water costs more effectively.”</p>
+        <div class="mt-5 text-[13px] font-bold text-gray-400">— Property Manager / Mombasa</div>
         <div class="mt-2 text-[11.5px] tracking-widest font-bold text-gray-300">WATER METERS</div>
       </div>
       <div class="reveal border-2 border-dashed border-gray-200 rounded-2xl p-8 text-center bg-gray-50/50">
         <div class="flex justify-center gap-1 text-gray-300 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-        <p class="text-gray-400 italic text-[15px]">“Customer testimonial goes here.”</p>
-        <div class="mt-5 text-[13px] font-bold text-gray-400">— Customer / Company Name</div>
+        <p class="text-gray-400 italic text-[15px]">“Having a clearer picture of gas consumption makes it easier to track usage and plan our operating costs. Reliable metering is an important part of managing our facility.”</p>
+        <div class="mt-5 text-[13px] font-bold text-gray-400">— Facility Manager / Kisumu</div>
         <div class="mt-2 text-[11.5px] tracking-widest font-bold text-gray-300">GAS METERS</div>
       </div>
     </div>
